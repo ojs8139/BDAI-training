@@ -10,4 +10,4 @@
   * Ansible
   * Hue Load Balancer
 * 내용 상세 설명 링크
-  * https://github.com/ojs8139/BDAI-training/blob/master/Week1/TestFile.txt
+  * https://github.com/ojs8139/BDAI-training/blob/master/Week1/Report%20Detail%20Text%20File.txt
