@@ -6,14 +6,14 @@
   * HDFS
   * YARN & MapReduce
 
-    - BigData
+    -> BigData
         -> test
 
-    - Hadoop & Cloudera
+    -> Hadoop & Cloudera
         -> hc
 
-    - HDFS
+    -> HDFS
         -> hdfs
 
-    - YARN & MapReduce
+    -> YARN & MapReduce
         -> a
