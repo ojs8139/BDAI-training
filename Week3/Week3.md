@@ -1,33 +1,37 @@
-# Week2
+# Week3
 
-## Technical Seminar
-* Bigdata
-* Hadoop
-* MapReduce
-* YARN
-2주차 Weekly Report 초안입니다.
+## Cloudera Admin Official Video Lecture
+* Day-1
+* Day-2
+* Day-3
+* Day-4
+3주차 Weekly Report 초안입니다.
 
 ---
-## 빅데이터 정의
-빅데이터의 유래 설명
+## 2019/03/18 Mon
+## 빅데이터란?
+하둡으로 처리할 데이터
 ```
-    Hadoop
+대용량 데이터 처리 : Tera-Byte(10^12)
 ```
-
-## Hadoop
-하둡 설명
+## 하둡이란?
+데이터를 분산 저장하고 분산된 데이터를 병렬 처리하는 시스템
 ```
-    Hadoop  
-```
-
-## MapReduce
-맵리듀스 설명
-```
-    MR
+HDFS : 분산 저장
+YARN : 병렬 처리
 ```
 
-## YARN
-얀 설명
-```
-    YARN
-```
+## Cloudera Manager
+클라우데라 메니저는 시스템을 관리할 수 있게 해주는 클러스터 메니지먼트 툴
+하둡은 하나의 시스템을 쓰는게 아니라 여러 개의 서버를 뭉쳐 놓은 걸 클러스터라 하는데, 클러스터를 관리하고 운영해야 하는데 이를 하는게 클라우데라 메니저이다.
+Ambari 는 Hue + 클라우데라 매니저
+
+클라우데라 매니저 관리자 툴은 클라우데라 CM, 클러스터 관리
+클라우데라 유저 인터페이스는 Hue
+
+하이브는 맵리듀스로 돈다.
+
+HA : 고가용성, 하나가 죽어도 또 쓸수 있는 형태로 만드는 것
+
+## 데이터의 변화
+Moore's Law : 컴퓨터 성능이 매 18개월 마다 두 배가 된다.
