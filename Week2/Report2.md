@@ -1,19 +1,33 @@
 # Week2
 
-* Technical Seminar
-  * BigData
-  * Hadoop & Cloudera
--  HDFS
-- YARN & MapReduce
+## Technical Seminar
+* Bigdata
+* Hadoop
+* MapReduce
+* YARN
+2주차 Weekly Report 초안입니다.
 
-    -> BigData
-        -> test
+---
+## 빅데이터 정의
+빅데이터의 유래 설명
+```
+    Hadoop
+```
 
-    -> Hadoop & Cloudera
-        -> hc
+## Hadoop
+하둡 설명
+```
+    Hadoop  
+```
 
-    -> HDFS
-        -> hdfs
+## MapReduce
+맵리듀스 설명
+```
+    MR
+```
 
-    -> YARN & MapReduce
-        -> a
+## YARN
+얀 설명
+```
+    YARN
+```
