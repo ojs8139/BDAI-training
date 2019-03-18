@@ -4,7 +4,7 @@
   * BigData
   * Hadoop & Cloudera
   * HDFS
-  * YARN & MapReduce
+- YARN & MapReduce
 
     -> BigData
         -> test
