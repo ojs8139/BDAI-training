@@ -3,7 +3,7 @@
 * Technical Seminar
   * BigData
   * Hadoop & Cloudera
-  * HDFS
+-  HDFS
 - YARN & MapReduce
 
     -> BigData
