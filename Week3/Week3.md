@@ -40,11 +40,12 @@ Moore's Law : 컴퓨터 성능이 매 18개월 마다 두 배가 된다.
 하둡 대몬들은 각 각의 클러스터 안의 기계 안에서 돌아가고 있다. HDFS의 지정된 저장소는 없다. 개념이다. 데이터 자체를 불러오는게 아닌 데이터가 있는 곳을 불러오는 구조이다.
 
 Hadoop의 개념
-```
-네임노드에 metadata가 정의되어 있으며, 각각의 호스트에 파일들을 분산하여 저장한다. <br>각각의 호스트의 저장 디렉토리에 파일은 열어볼 수 없다.(나눠져 있어서)
-```
-클러스터 관리 툴<br>
-Cloudera - Cloudera Management
+
+* 네임노드에 metadata가 정의되어 있으며, 각각의 호스트에 파일들을 분산하여 저장한다. 
+* 각각의 호스트의 저장 디렉토리에 파일은 열어볼 수 없다.(나눠져 있어서)
+
+### 클러스터 관리 툴<br>
+Cloudera - Cloudera Management<br>
 Hontonworks - Ambari
 
 ## Cloudera Manager
@@ -101,7 +102,8 @@ fsimage : 현재 상태 스냅샷
 ### NN Startup
 SafeMode(Read-Only Mode)
 ```
-블럭이 깨지거나, 데이터가 가득찼을 때 뜨는데, 업데이트가 이루어지지 않는 모드를 말한다. 여기서 업데이트란 PUT, DELETE가 되지 않는 상태를 SafeMode라 한다.
+블럭이 깨지거나, 데이터가 가득찼을 때 뜨는데, 업데이트가 이루어지지 않는 모드를 말한다. 
+여기서 업데이트란 PUT, DELETE가 되지 않는 상태를 SafeMode라 한다.
 ```
 관리자가 일부러 안전모드를 실행할 때가 있는데, NameNode가 Reboot 할 때이다.
 
