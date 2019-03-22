@@ -226,12 +226,12 @@ Input Data가 오면 Input Format에 따라 Input Split(각각의 블럭)으로 
 * Reduce 결과는 hdfs에 쓴다.
 
 ## MapReduce Application Terminology
-* Job 
+### Job 
 ```    
 하나의 어플리케이션. 여러개의 Task로 구성.<br>Task는 MapTask, ReduceTask로 이루어짐.
 맵리듀스의 high-level 객체
 ```
-* Task 
+### Task 
 ```
 하나의 Job이 여러개의 Task로 구성
 Mapper 하나가 하나의 Task이고 MapTask, ReduceTask 중 하나로 구성
@@ -260,10 +260,10 @@ Sqoop 동작시 map 으로 이루어진 자바 프로그램이 돈다.
 # Day 3
 ## 하이브 아키텍쳐와 데이터 모델
 ### 하이브 개요
-    - SQL과 유사한 HiveQL을 사용
-    - 맵리듀스 프로그램 작성 대신 쿼리 인터페이스 서비스 제공
-    - 쿼리 실행 시에 맵리듀스 프로그램으로 전환되어 결과를 생성함
-    - RDBMS처럼 테이블을 이용하여 쿼리를 수행하므로 비정형화된 입력 소스 분석에는 적합하지 않음
+- SQL과 유사한 HiveQL을 사용
+- 맵리듀스 프로그램 작성 대신 쿼리 인터페이스 서비스 제공
+- 쿼리 실행 시에 맵리듀스 프로그램으로 전환되어 결과를 생성함
+- RDBMS처럼 테이블을 이용하여 쿼리를 수행하므로 비정형화된 입력 소스 분석에는 적합하지 않음
 ### 하이브 클라이언트
     JDBC 기반 응용 프로그램 지원
     Thrift 기반 응용 프로그램 지원
