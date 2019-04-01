@@ -44,3 +44,6 @@ hive> LOAD DATA INPATH '/user/ojs8139/twtrawdata' into TABLE twt PARTITION(count
 ![](2019-03-25-15-56-47.png)
 
 get_json_object(json_txt, path) 
+
+# mongoDB
+![](2019-03-29-09-48-11.png)
