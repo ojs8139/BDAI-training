@@ -14,11 +14,11 @@ BLOB 타입 값을 바이너리 값으로 변환하는 경우, 크기는 1GB를 
 반대로 문자열을 BLOB 타입으로 변환하는 경우, BLOB 저장소 제공 최대 파일 크기를 넘을 수 없다.
 
 ### BLOB 데이터 HDFS로 IMPORT
-* mysql에 BLOB 컬럼 포함 테이블 구성
+* mysql에 BLOB 컬럼 포함 테이블 구성<br>
 ![](2019-04-08-08-57-38.png)
 ![](2019-04-08-08-57-45.png)
 
-* 데이터를 저장하는 것은 문제가 없으나 인코딩 문제가 발생
+* 데이터를 저장하는 것은 문제가 없으나 인코딩 문제가 발생<br>
 ![](2019-04-08-08-53-58.png)
 ![](2019-04-08-08-54-03.png)
 
@@ -184,7 +184,8 @@ companion object : special class, singleton이라고 생각하면 된다. 여기
 ```
 스칼라는 자바와 다르게 static 키워드가 없다. 대신 비슷하게 클래스와 같은 이름의 object를 선언하여 사용한다. 이러한 object를 companion object라고 한다.
 ```
-![](2019-04-08-09-01-47.png)
+<br>
+
 >> companion object - companion class는 같은 클래스를 인스턴스 부분과 static 부분으로 분리해둔 것
 
 ## Packages, Inheritance, Traits
