@@ -41,3 +41,10 @@ https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html
 ```
 $ mvn package
 ```
+
+#### Permission 별 기능 조사(Hue)
+
+#### OPC-UA 서버로 부터 Data 가져오기
+
+#### Kerberos HDFS distcp 중 oozie 루트 접근 방법 조사
+

@@ -1,4 +1,4 @@
-# Week6
+# Week7
 ## Sqoop Import 과정 테스트
 
 ## 2019/04/08
