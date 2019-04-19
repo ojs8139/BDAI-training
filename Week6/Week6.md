@@ -28,11 +28,11 @@
 #### Import 속도 테스트
 #### File Size : 1.5G : 평균 소요 시간 10분 내외
 * 테스트 횟수 : 10번
-* 사용 파라미터 : direct
+* 사용 파라미터 : direct<br>
 ![](2019-04-12-19-47-05.png)
 #### File Size : 4.5G : 평균 소요 시간 8분 내외
 * 테스트 횟수 : 2번
-* 사용 파라미터 : direct, import-all-tables
+* 사용 파라미터 : direct, import-all-tables<br>
 ![](2019-04-12-19-47-54.png)
 #### Sqoop to HDFS 속도 문제 개선 Search
 
