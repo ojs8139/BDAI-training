@@ -1,5 +1,4 @@
 # Week7
-
 ## Hadoop Permission Configuration
 #### Permission 별 기능 조사(Hue)
 ### Group별 권한 부여 테스트
