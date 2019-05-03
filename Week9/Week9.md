@@ -36,13 +36,13 @@ https://localhost:9443/identity/metadata/saml2
 
 3. 해당 테스트에서는 keystore를 직접 생성하여 암호 및 private key를
 지정하여 CM 설정에 등록하였다.
-Keystore 생성 방법은 아래 링크 참고
+Keystore 생성 방법은 아래 링크 참고<br>
 https://glassonionblog.wordpress.com/2017/01/09/extract-key-and-crt-files-from-jks-file/
 
 SAML Entity ID 부터는 설정되어 있는 기본값으로 진행
 
 #### Create Keystore File
-CM 외부인증 설정 페이지에서 설정된 메타데이터 위치
+CM 외부인증 설정 페이지에서 설정된 메타데이터 위치<br>
 ![](2019-05-03-12-30-21.png)
 
 #### WSO2 jks file to key,der, pfx files

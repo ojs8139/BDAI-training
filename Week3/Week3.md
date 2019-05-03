@@ -81,7 +81,7 @@ Hadoop is "Rack-aware"
 데이터를 저장할 때, 저장된 현재 rack 이 외의 다른 rack에 할당한다.
 
 ### NN CheckPoint
-edits : 변동된 트랜젝션
+edits : 변동된 트랜젝션<br>
 fsimage : 현재 상태 스냅샷
 현재 : edits, fsimage 존재
 1. edits.new 하여 변동사항 edits로 로그 생성 준비
