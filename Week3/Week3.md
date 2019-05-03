@@ -42,8 +42,9 @@ Agent : 각각의 서버에서 돌고 있는 일종의 스파이. 각각의 노�
 
 Secondary Name Node : CheckPoint 서버라고 생각하면 된다.
 
-Active NameNode
-Standby NameNode 조사할 것
+### Active NameNode, Standby NameNode
+두 단어가 나오게 된 것은 HA를 하느냐 안하느냐에 따라 나오게 된다.
+Active NameNode의 서버가 일정 시간 이상 다운되었을 때를 대비하여 Active NameNode의 fsimage, edits 등을 저장하고 적용하는 준비상태에 있는 노드가 Standby nameNode이고, 실제로 돌아가고 있는 노드가 Active NameNode 이다.
 
 설치시
 Master 기능 : ResourceManager, JobHistoryServer, SecondaryNameNode(non-HA env), NameNode, NodeManager 등은 각각 서버를 따로 두어야 된다.
