@@ -91,7 +91,7 @@ JobTracker로부터 작업을 요청받고 요청받은 맵과 리듀스 개수�
 ## YARN(Yet Another Resource Nagotiator)
 각 어플리케이션(HBase, Accumulo, Storm, MapReduce...)에 필요한 리소스(CPU, 메모리, 디스크 등)를 할당하고 모니터링하는 업무
 ```
-MapReduce 는 JobTracker 와 TaskTracker를 한 곳에서 처리하지만, 이를 개선하여 Resource Managenet(자원관리) 와 job scheduling/monitoring(일정조율 및 모니터링)의 기능을 나눈 MapReduce 2 버전
+MapReduce 는 JobTracker 와 TaskTracker를 한 곳에서 처리하지만, 이를 개선하여 Resource Management(자원관리) 와 job scheduling/monitoring(일정조율 및 모니터링)의 기능을 나눈 MapReduce 2 버전
 ```
 
 JobTracker의 기능은 ResourceManager, Application Master의 두가지 프로세스로, 
